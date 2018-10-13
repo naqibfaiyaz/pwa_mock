@@ -20,7 +20,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/modified.css') }}" rel="stylesheet">
     <!--PWA Script-->
-        <script>
+        <!-- <script>
           if ('serviceWorker' in navigator && 'PushManager' in window) {
             window.addEventListener('load', function() {
                 navigator.serviceWorker.register('service-worker.js').then(function(registration) {
@@ -32,7 +32,7 @@
                 });
             });
         }
-        </script>
+        </script> -->
 </head>
 <body class="body-color">
 

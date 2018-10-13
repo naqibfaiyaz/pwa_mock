@@ -13,7 +13,7 @@
 	<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
 	<link rel="manifest" href="manifest.json" />
         <!--PWA Script-->
-        <script>
+        <!-- <script>
           if ('serviceWorker' in navigator && 'PushManager' in window) {
             window.addEventListener('load', function() {
                 navigator.serviceWorker.register('service-worker.js').then(function(registration) {
@@ -25,7 +25,7 @@
                 });
             });
         }
-        </script>
+        </script> -->
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>

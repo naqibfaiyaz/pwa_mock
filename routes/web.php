@@ -20,6 +20,6 @@ Route::get('/dashboard', function () {
     return view('home');
 });
 
-Auth::routes();
+// Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');
