@@ -116,7 +116,7 @@
                         </div>
                         <div class="carousel-item item">
                         <div class="item_third">
-                            <img src="https://mygp.grameenphone.com/mygpstatic/s1_cards_1529500405_3x.png" alt="Third slide">
+                            <img src="https://mygp.grameenphone.com/mygpstatic/s1_cards_1534769907_3x.png" alt="Third slide">
                         </div>
                         </div>
                     </div>
