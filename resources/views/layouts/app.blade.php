@@ -40,8 +40,6 @@
         <!-- Sidebar  -->
         @include('layouts/sidebar')
 
-        <!-- Page Content  -->
-        <div id="content">
 
             <nav class="navbar navbar-dark bg-dark navbar-fixed-top">
                 <div class="container-fluid">
@@ -53,6 +51,9 @@
                     </button>
                 </div>
             </nav>
+            
+        <!-- Page Content  -->
+        <div id="content">
     @yield('content')
     </div>
 

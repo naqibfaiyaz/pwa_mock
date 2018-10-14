@@ -4,7 +4,7 @@
 <div class="container" id="app">
     <div class="row front-row card-background-color">
         <div class="col">
-            <img src="{{ asset('icons/Yasir-Azman.jpg') }}" class="rounded-circle profile-img-backgroud" alt="Photo" width="40" height="40"> 
+            <img src="{{ asset('images/pp.png') }}" class="rounded-circle profile-img-backgroud" width="40" height="40"> 
             <span class="profile-img-text">Yasir Azman</span>
             <span class="profile-img-msisdn">01711506899</span>
         </div>
@@ -78,19 +78,19 @@
         <div class="row card-background-color justify-content-center card-padding">
             <div class="row modified-inside-card">
                 <div class="col icon-padding">
-                    <img class="center-icon-block" src="{{ asset('icons/flexiplan.png') }}" alt="Cinque Terre" width="48" height="48">
+                    <img class="center-icon-block" src="{{ asset('images/flexiplan.png') }}" alt="Cinque Terre" width="48" height="48">
                     <div class="icon-text center-icon-block">FlexiPlan</div>
                 </div>
                 <div class="col icon-padding">
-                    <img class="center-icon-block" src="{{ asset('icons/buy-internet.png') }}" alt="Cinque Terre" width="48" height="48">
+                    <img class="center-icon-block" src="{{ asset('images/buy-internet.png') }}" alt="Cinque Terre" width="48" height="48">
                     <div class="icon-text center-icon-block">Buy Internet</div>
                 </div>
                 <div class="col icon-padding">
-                    <img class="center-icon-block" src="{{ asset('icons/buy-talktime.png') }}" alt="Cinque Terre" width="48" height="48"> 
+                    <img class="center-icon-block" src="{{ asset('images/buy-talktime.png') }}" alt="Cinque Terre" width="48" height="48"> 
                     <div class="icon-text center-icon-block">Buy Talktime</div>
                 </div>
                 <div class="col icon-padding">
-                    <img class="center-icon-block" src="{{ asset('icons/recharge.png') }}" alt="Cinque Terre" width="48" height="48"> 
+                    <img class="center-icon-block" src="{{ asset('images/recharge.png') }}" alt="Cinque Terre" width="48" height="48"> 
                     <div class="icon-text center-icon-block">Recharge</div>
                 </div>
             </div>
