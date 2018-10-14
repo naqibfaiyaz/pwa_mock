@@ -77,22 +77,15 @@
     <div class="card-total-padding">
         <div class="row card-background-color justify-content-center card-padding">
             <div class="row modified-inside-card">
-                <div class="col icon-padding">
-                    <img class="center-icon-block" src="{{ asset('images/flexiplan.png') }}" alt="Cinque Terre" width="48" height="48">
-                    <div class="icon-text center-icon-block">FlexiPlan</div>
-                </div>
-                <div class="col icon-padding">
-                    <img class="center-icon-block" src="{{ asset('images/buy-internet.png') }}" alt="Cinque Terre" width="48" height="48">
-                    <div class="icon-text center-icon-block">Buy Internet</div>
-                </div>
-                <div class="col icon-padding">
-                    <img class="center-icon-block" src="{{ asset('images/buy-talktime.png') }}" alt="Cinque Terre" width="48" height="48"> 
-                    <div class="icon-text center-icon-block">Buy Talktime</div>
-                </div>
-                <div class="col icon-padding">
-                    <img class="center-icon-block" src="{{ asset('images/recharge.png') }}" alt="Cinque Terre" width="48" height="48"> 
-                    <div class="icon-text center-icon-block">Recharge</div>
-                </div>
+                <ul class="nav nav-tabs-icon-list icon-padding">
+                    <li class="active icon-row-padding"><a href="#tab1" data-toggle="tab"><img class="icon-padding center-icon-block" src="{{ asset('images/recharge.png') }}" alt="Cinque Terre" width="48" height="48">Recharge</a></li>
+                    <li class="icon-row-padding"><a href="#tab2" data-toggle="tab"><img class="center-icon-block" src="{{ asset('images/flexiplan.png') }}" alt="Cinque Terre" width="48" height="48">FlexiPlan</a></li>
+                    <li class="icon-row-padding"><a href="#tab2" data-toggle="tab"><img class="center-icon-block" src="{{ asset('images/buy-internet.png') }}" alt="Cinque Terre" width="48" height="48">Buy Internet</a></li>
+                    <li class="icon-row-padding"><a href="#tab2" data-toggle="tab"><img class="center-icon-block" src="{{ asset('images/buy-talktime.png') }}" alt="Cinque Terre" width="48" height="48">Buy Talktime</a></li>
+                    <li class="icon-row-padding"><a href="#tab2" data-toggle="tab"><img class="center-icon-block" src="{{ asset('images/recharge.png') }}" alt="Cinque Terre" width="48" height="48">Recharge</a></li>
+                    <li class="icon-row-padding"><a href="#tab2" data-toggle="tab"><img class="center-icon-block" src="{{ asset('images/flexiplan.png') }}" alt="Cinque Terre" width="48" height="48">FlexiPlan</a></li>
+                    <li class="icon-row-padding"><a href="#tab2" data-toggle="tab"><img class="center-icon-block" src="{{ asset('images/buy-internet.png') }}" alt="Cinque Terre" width="48" height="48">Buy Internet</a></li>
+                </ul>
             </div>
         </div>
         <div class="row card-background-color justify-content-center card-padding">
